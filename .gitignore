@@ -1,0 +1,52 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary artifacts and logs
+*.log
+scratch/
+.system_generated/
+
+# Raw source materials, legacy drafts, and helper scripts (not for publication)
+1.HCIA/
+2.HCIP/
+3.HCIE/
+_pdf_extract/
+100个网络数通知识-v4.md
+notes/
+scripts/
