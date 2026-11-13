@@ -6,6 +6,7 @@
 [![Volumes: 35 Volumes](https://img.shields.io/badge/Volumes-35%20Volumes%20--%20530k%2B%20Words-blue.svg)](SUMMARY.md)
 [![PRDs: 4 Industry PRDs](https://img.shields.io/badge/PRDs-4%20Industry%20PRDs-orange.svg)](09_第九篇_系统级PRD工程设计/数通工程师全栈学习笔记体系_PRD.md)
 [![Status: Complete](https://img.shields.io/badge/Status-Complete-success.svg)](00_总览与知识地图.md)
+[![Cheatsheet: 1-Page QuickRef](https://img.shields.io/badge/Cheatsheet-1--Page%20QuickRef-success.svg)](CHEATSHEET.md)
 [![Huawei: HCIA/HCIP/HCIE](https://img.shields.io/badge/Huawei-HCIA%20%7C%20HCIP%20%7C%20HCIE-red.svg)](OUTLINE.md)
 [![NetDevOps: Python & NETCONF](https://img.shields.io/badge/NetDevOps-Python%20%26%20NETCONF%2FYANG-brightgreen.svg)](08_第八篇_网络自动化与机试/35-Python网络自动化.md)
 
@@ -205,10 +206,12 @@ flowchart LR
 * **[企业园区网自动化运维脚本系统 PRD](09_第九篇_系统级PRD工程设计/企业园区网自动化运维脚本系统_PRD.md)**：Python 自动化巡检与 24 小时灾备归档系统研发需求说明书；
 * **[大中型虚拟化园区网络架构设计 PRD](09_第九篇_系统级PRD工程设计/大中型虚拟化园区网络架构设计_PRD.md)**：华为 CloudCampus 虚拟化 Fabric 组网与业务随行设计方案。
 
-### [第十篇：附录与数通实战军火库（4 份高价值附录）](10_第十篇_附录与数通实战军火库/附录A_数通高频核心100问与面试突击宝典.md)
+### [第十篇：附录与数通实战军火库（5 份高价值附录）](10_第十篇_附录与数通实战军火库/附录A_数通高频核心100问与面试突击宝典.md)
 * **[附录A：数通高频核心 100 问与面试突击宝典](10_第十篇_附录与数通实战军火库/附录A_数通高频核心100问与面试突击宝典.md)**：提炼 100 个经典高频考核问答（覆盖面试高频与现网排错全场景），面试/突击必备；
 * **[附录B：组播技术深度解析（IGMP与PIM）](10_第十篇_附录与数通实战军火库/附录B_组播技术深度解析_IGMP与PIM.md)**：组播 D 类地址体系、MAC 映射碰撞、IGMPv1/v2/v3 演进与 PIM-SM 汇聚点切换；
-* **[附录C：全球广域网互联与前沿专题（Transit/Peering/NNI/SASE）](10_第十篇_附录与数通实战军火库/附录C_全球广域网互联与前沿专题_Transit_Peering_NNI_SASE.md)**：全球骨干 Transit/Peering 商业博弈、IXP 机制、NNI 专线对接界面与 SASE 云安全。
+* **[附录C：全球广域网互联与前沿专题（Transit/Peering/NNI/SASE）](10_第十篇_附录与数通实战军火库/附录C_全球广域网互联与前沿专题_Transit_Peering_NNI_SASE.md)**：全球骨干 Transit/Peering 商业博弈、IXP 机制、NNI 专线对接界面与 SASE 云安全；
+* **[附录D：华为云网融合与算力网络前沿实战（IPv6+/SRv6/无损以太/CU转控分离）](10_第十篇_附录与数通实战军火库/附录D_华为云网融合与算力网络前沿实战_IPv6Plus_SRv6_无损以太_CU转控分离.md)**：算网大脑、东数西算、AIDC 无损以太网（RoCEv2/SPFC/AFR）、IPv6+（APN6/IFIT/SFC）、TI-LFA 100% 收敛与 vBNG CU 转控分离；
+* **[附录E：数通全栈协议与工程配置一页速查表](10_第十篇_附录与数通实战军火库/附录E_数通全栈协议与工程配置一页速查表.md)**（亦见根目录 **[CHEATSHEET.md](CHEATSHEET.md)**）：高密度 8 大核心卡片，覆盖二层/OSPF/IS-IS/BGP对齐矩阵/13条选路口诀/路由控制/服务安全/IPv6/MPLS/EVPN/SRv6/无损RoCEv2与华为 VRP TOP15 排障黄金命令。
 
 ---
 

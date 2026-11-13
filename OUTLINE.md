@@ -17,7 +17,7 @@
 | **第七篇：云网前沿与高级特性** | 卷25 ~ 32 | QoS、VXLAN、BGP EVPN、Segment Routing (SR-MPLS)、SRv6、Fabric、业务随行、SD-WAN | CBQ队列(LLQ/EF/AF/BE)、WRED防全局同步、srTCM/trTCM令牌桶、MAC-in-UDP、Type 1~5路由协同、TI-LFA 100%保护、128位SID、PnP开局、ZTP邮件开局、SLA智能选路 | HCIE 核心 |
 | **第八篇：网络自动化与机试** | 卷33 ~ 35 | Python 3、Paramiko、SFTP、NETCONF、YANG、ncclient、ThreadPoolExecutor | 命令文本流式解耦、`**kwargs`字典解包、面向对象类建模、针对性异常隔离、线程池高并发、SSH交互终端、XML/RPC事务回滚 | NetDevOps / HCIE机试 |
 | **第九篇：系统级 PRD 工程设计** | 4 份系统 PRD | SD-WAN 解决方案、自动化运维脚本系统、大中型虚拟化园区网、全栈总纲 PRD | 遵循工业级 7 大硬性章节架构，包含详细功能需求清单 (FR) 与非功能需求 (NFR) | 架构师 / 售前专家 |
-| **第十篇：附录与实战军火库** | 3 份实战附录 | 数通高频 100 问、组播技术 (IGMP/PIM)、全球互联 (Transit/Peering/NNI/SASE) | 100 原题问答与避坑速查、组播地址映射与 PIM-SM 切换、Gao-Rexford 商业选路准则 | 全场景速查 |
+| **第十篇：附录与实战军火库** | 5 份实战附录 | 数通高频 100 问、组播技术 (IGMP/PIM)、全球互联 (Transit/Peering/NNI/SASE)、华为云网融合与算力网络 (IPv6+/SRv6/无损以太)、一页速查表 | 100 原题问答、Gao-Rexford 商业准则、RoCEv2 零丢包、8大高密协议卡片与TOP15排障命令 | 全场景速查 / 现场突击 |
 
 ---
 
@@ -44,3 +44,10 @@
    - 外部命令文本解耦读取与批量交换机并发巡检脚本；
    - 交换机配置文件每日定时 SFTP 归档归档；
    - 基于 `ncclient` 的 NETCONF 自动化时钟同步与 Syslog 配置下发。
+6. **全栈协议与工程配置速查**：
+   - 物理/链路/VLAN/STP/LACP 参数速查表；
+   - OSPF / IS-IS / BGP 三大动态路由全维对照与 13 条选路口诀；
+   - ACL / Prefix / Route-Policy / Community 路由控制矩阵；
+   - DHCP / NAT / VRRP / BFD / IPsec 基础网络服务配置清单；
+   - MPLS / EVPN / SRv6 / RoCEv2 协议栈与报头封装速查；
+   - 华为 VRP TOP15 黄金排障命令与协议卡死状态一键救援指南（详见 [附录E](10_第十篇_附录与数通实战军火库/附录E_数通全栈协议与工程配置一页速查表.md) 与 [CHEATSHEET.md](CHEATSHEET.md)）。
